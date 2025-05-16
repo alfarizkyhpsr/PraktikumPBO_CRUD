@@ -21,11 +21,11 @@ Proyek ini adalah aplikasi desktop Java berbasis **Swing GUI Designer** untuk me
 ## 🧱 Arsitektur Program
 
 ### 🔹 Package `datamodel`
-- `DataFilm.java` → Entitas film (mewarisi `InformasiUmum`)
-- `InformasiUmum.java` → Superclass ID dan Judul
-- `ManajerDataFilm.java` → DAO untuk operasi database
-- `OperasiData.java` → Interface CRUD generik
-- `DatabaseConnection.java` → Utility koneksi JDBC
+- `DataFilm.java` → Entitas film (mewarisi `InformasiFilm`)
+- `InformasiFilm.java` → Superclass ID dan Judul
+- `PengelolaDataFilm.java` → DAO untuk operasi database
+- `InterfaceCRUD.java` → Interface CRUD generik
+- `KoneksiDatabase.java` → Utility koneksi JDBC
 
 ### 🔹 Package `tampilan`
 - `FormFilm.java` → GUI aplikasi berbasis JFrame Form NetBeans
