@@ -28,7 +28,7 @@ Proyek ini adalah aplikasi desktop Java berbasis **Swing GUI Designer** untuk me
 - `DatabaseConnection.java` → Utility koneksi JDBC
 
 ### 🔹 Package `tampilan`
-- `MovieForm.java` → GUI aplikasi berbasis JFrame Form NetBeans
+- `FormFilm.java` → GUI aplikasi berbasis JFrame Form NetBeans
 
 ---
 
